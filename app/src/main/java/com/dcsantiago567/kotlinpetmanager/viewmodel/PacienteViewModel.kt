@@ -8,7 +8,7 @@ import com.dcsantiago567.kotlinpetmanager.model.Paciente
 
 class PacienteViewModel : ViewModel() {
 
-    // Lista de pacientes: la vista la lee, pero solo el ViewModel la modifica
+    // Lista de pacientes
     var pacientes by mutableStateOf<List<Paciente>>(emptyList())
         private set
 

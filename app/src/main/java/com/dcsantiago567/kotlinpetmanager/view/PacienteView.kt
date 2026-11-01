@@ -37,7 +37,7 @@ fun PacienteScreen(viewModel: PacienteViewModel) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("KotlinPet Manager") },
+                title = { Text("KotlinPet Manager \uD83D\uDC3E") },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
                     titleContentColor = MaterialTheme.colorScheme.onPrimaryContainer
